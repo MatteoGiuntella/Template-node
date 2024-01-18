@@ -13,7 +13,7 @@ export default {
 
 <template>
     <main>
-        MAIN
+       
     </main>
 </template>
 
