@@ -1,18 +1,21 @@
 <script>
-  // my-component.js
 export default {
     data() {
-       return { 
-        
-      }
+        return {
+
+        };
     },
+    methods: {
+
+    }
 }
 </script>
 
 <template>
-  
+    <main>
+        MAIN
+    </main>
 </template>
 
 <style lang="scss" scoped>
- 
 </style>

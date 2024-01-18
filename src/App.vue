@@ -1,33 +1,38 @@
 <script>
-import AppFooter from './components/AppFooter.vue';
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
-  // my-component.js
+import AppFooter from './components/AppFooter.vue';
+
 export default {
     data() {
-       return { 
-        count: 0 
-      }
+        return {
+
+        };
     },
-    components:{
-    AppHeader,
-    AppFooter,
-    AppMain
-}
+    components: {
+        AppHeader,
+        AppMain,
+        AppFooter
+    },  
+    methods: {
+
+    }
 }
 </script>
 
 <template>
-  <div>
-  <AppHeader />
+    <h1>
+        Mia App
+    </h1>
 
-  <AppMain />
+    <AppHeader />
 
-  <AppFooter />
+    <AppMain />
 
-  </div> 
+    <AppFooter />
 </template>
 
-<style lang="scss" scoped>
- 
+<style lang="scss">
+@use "assets/scss/main" as *;
+@import "assets/scss/partials/reset";
 </style>
