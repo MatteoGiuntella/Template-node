@@ -3,10 +3,11 @@ import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 import axios from 'axios';
+import {store} from './store.js'
 export default {
     data() {
         return {
-
+            store
         };
     },
     components: {
@@ -18,9 +19,9 @@ export default {
 
     },
     mounted(){
-        axios.get().then((response) =>{
-            console.log(response)
-        });
+        // axios.get().then((response) =>{
+        //     console.log(response)
+        // });
     }
 }
 </script>
